@@ -1,0 +1,78 @@
+@import url('https://fonts.cdnfonts.com/css/inter');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    transition: 0.4s ease-in-out;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+header {
+    background: url('./images/slider2\ 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 450px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: #FFFDFD;
+}
+
+nav ul:hover {
+    color: #76b900;
+}
+
+nav>a {
+    font-weight: 600;
+    font-size: 28px;
+    color: #FFFDFD;
+    margin-left: -43;
+}
+
+nav div {
+    position: relative;
+}
+
+nav input {
+    padding: 14px;
+    min-height: 30px;
+    border: 2px solid transparent;
+}
+
+nav div img {
+    position: absolute;
+    top: 50%;
+    right: 132px;
+    transform: translateY(-50%);
+}
+
+button {
+    padding: 18px 20px ;
+    background: #76b900;
+    font-weight: 700;
+    color: #000;
+    border: 2px solid transparent;
+}
+
+
+
